@@ -1,0 +1,45 @@
+.Footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    position: relative;
+    height: 20rem;
+}
+
+.Footer>hr {
+    width: 100%;
+    border: 1px solid var(--lightgray);
+}
+
+.logos {
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+}
+
+.logos>img {
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+}
+
+.blur-f-1 {
+    bottom: 0;
+    right: 15%;
+    width: 26rem;
+    height: 10rem;
+    filter: blur(200px);
+    background: red;
+}
+
+.blur-f-2 {
+    bottom: 0;
+    left: 15%;
+    width: 26rem;
+    height: 10rem;
+    filter: blur(200px);
+    background: rgb(255, 115, 0);
+}
+
